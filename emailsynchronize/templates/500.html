@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html> 
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Внутренняя ошибка сервера.</title>
+        <meta name="msapplication-TileColor" content="#000">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    </head>
+    <body>
+        <main>
+            <div class="row justify-content-center">
+                <div class="col-md-8 p-5">
+                    <div class="card">
+                        <div class="card-header">Внутренняя ошибка сервера!</div>
+                        <div class="card-body"> 
+                            <p>В процессе обработки Ваших данных что-то пошло не так.</p>
+                            <p>Пожалуйста, свяжитесь с администратором.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p align="center">Likato 2023</p>
+        </footer>
+    </body>
+</html>
